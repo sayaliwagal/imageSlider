@@ -17,7 +17,7 @@ function App() {
     return () => clearInterval(interval);
     },[currentImageIndex]); 
   return (
-    <div className='flex relative justify-center items-center h-screen bg-gray-900  flex-row overflow-y-hidden '>
+    <div className='flex relative justify-center bg-contain items-center h-screen bg-gray-900  flex-row overflow-y-hidden '>
       {imageObj.map((image , index)=>(
         <Slider
         key={image.id}
