@@ -12,7 +12,7 @@ const Slider = (props) => {
       ${transitionClass || ''} //Apply transition classes if provided
       ${isActive ? 'opacity-100 z-10' : 'opacity-0 z-0'} //Control visibility and layering `}
     >
-          <img src={imgUrl} className="w-[600px] h-[800px] object-cover rounded-2xl shadow-lg mx-auto  bg-gray-900"
+          <img src={imgUrl} className="w-[700px] h-[1000px] object-cover rounded-2xl shadow-lg mx-auto  bg-gray-900"
            alt={altText}
            onError={(e) =>{
             e.target.onerror = null;
